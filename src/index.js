@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import Header from './Header/Header';
 import Menu from './Menu/Menu';
+import Home from './Home/Home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <App />
     <Menu />
+    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

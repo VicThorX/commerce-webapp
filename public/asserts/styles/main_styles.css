@@ -447,7 +447,7 @@ section
 {
 	display: inline-block;
 }
-.shopping_cart a svg
+.shopping_cart a img
 {
 	display: inline-block;
 	width: 20px;
@@ -459,7 +459,7 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.shopping_cart a:hover svg,
+.shopping_cart a:hover img,
 .shopping_cart a:hover div
 {
 	fill: #e95a5a;
@@ -500,7 +500,7 @@ section
 	width: 13px;
 	height: 13px;
 }
-.search_icon svg
+.search_icon img
 {
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -508,7 +508,7 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.search_icon:hover svg
+.search_icon:hover img
 {
 	fill: #e95a5a;
 }

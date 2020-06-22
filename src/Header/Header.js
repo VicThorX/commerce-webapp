@@ -1,6 +1,6 @@
 import React from 'react';
-import cartIcon from './cartIcon.svg';
-import searchIcon from './searchIcon.svg';
+import cartIcon from '../icons/cartIcon.svg';
+import searchIcon from '../icons/searchIcon.svg';
 
 function Header() {
   return (

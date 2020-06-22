@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Header from './Header/Header';
+import Menu from './Menu/Menu';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <App />
+    <Menu />
   </React.StrictMode>,
   document.getElementById('root')
 );

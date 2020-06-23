@@ -4,8 +4,9 @@ import './index.css';
 import Header from './Header/Header';
 import Menu from './Menu/Menu';
 import Home from './Home/Home';
-import Ads from './Advertisements/Ads';
+import Advertisements from './Advertisements/Advertisements';
 import Products from './Products/Products';
+import Advertisement from './Advertisements/Advertisement';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,8 +14,9 @@ ReactDOM.render(
     <Header />
     <Menu />
     <Home />
-    <Ads />
+    <Advertisements />
     <Products />
+    <Advertisement />
   </React.StrictMode>,
   document.getElementById('root')
 );

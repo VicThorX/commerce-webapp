@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import Advertisements from './Advertisements/Advertisements';
 import Products from './Products/Products';
 import Advertisement from './Advertisements/Advertisement';
+import IconBoxes from './IconBoxes/IconBoxes';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Advertisements />
     <Products />
     <Advertisement />
+    <IconBoxes />
   </React.StrictMode>,
   document.getElementById('root')
 );

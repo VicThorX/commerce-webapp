@@ -5,6 +5,7 @@ import App from './App';
 import Header from './Header/Header';
 import Menu from './Menu/Menu';
 import Home from './Home/Home';
+import Ads from './Advertisements/Ads';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -12,7 +13,7 @@ ReactDOM.render(
     <Header />
     <Menu />
     <Home />
-    <App />
+    <Ads />
   </React.StrictMode>,
   document.getElementById('root')
 );

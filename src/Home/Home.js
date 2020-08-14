@@ -2,8 +2,8 @@ import React from 'react';
 
 function Home() {
   return (
-  <div className="home">
-		  <div className="home_slider_container">
+  	<div className="home">
+		<div className="home_slider_container">
 			
 			<div className="owl-carousel owl-theme home_slider">
 
@@ -74,9 +74,8 @@ function Home() {
 					</div>
 				</div>	
 			</div>
-      
-    </div>
-  </div>
+    	</div>
+  	</div>
   );
 }
 
